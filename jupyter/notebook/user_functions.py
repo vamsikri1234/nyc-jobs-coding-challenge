@@ -15,7 +15,7 @@ def display(df:DataFrame):
     Args:
         df (pyspark.sql.DataFrame): The PySpark DataFrame to be displayed.
     """
-    df.show(50,truncate=False)
+    df.show(20)
 
 
 def col_rename_with_mapping(df:DataFrame,col_mapping_path:str):
